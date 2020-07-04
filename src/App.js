@@ -13,7 +13,7 @@ function App() {
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-dark">
           <a href="/grade" className="navbar-brand">
-            Aplicativo
+            Grades App
           </a>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">
