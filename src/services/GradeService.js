@@ -13,6 +13,8 @@ const create = (data) => {
 };
 
 const update = (id, data) => {
+  console.log(`>>> ${id} <<<<`);
+  console.log(`>>> ${data} <<<<`);
   return http.put(`/grade/${id}`, data);
 };
 
